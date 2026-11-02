@@ -52,7 +52,7 @@ also as `model/preprocessor.joblib`):
 
 ## c. GitHub repository link
 
-**<GITHUB REPOSITORY LINK>**
+**https://github.com/2026aj05643/shopper-intent-classifier**
 
 ```
 shopper-intent-classifier/
@@ -116,7 +116,7 @@ A session is predicted as a purchase when the model's predicted probability is a
 
 ## Streamlit app
 
-Link: **<STREAMLIT APP LINK>**
+Link: **https://shopper-intent-2026aj05643.streamlit.app/**
 
 - **Test data upload (CSV):** upload a file with the 17 feature columns and `Revenue`.
   The `test_data.csv` from this repository can be downloaded from the sidebar and
