@@ -1,0 +1,59 @@
+{
+  "target": "Revenue",
+  "features": [
+    "Administrative",
+    "Administrative_Duration",
+    "Informational",
+    "Informational_Duration",
+    "ProductRelated",
+    "ProductRelated_Duration",
+    "PageValues",
+    "BounceRates",
+    "ExitRates",
+    "SpecialDay",
+    "Month",
+    "VisitorType",
+    "Weekend",
+    "OperatingSystems",
+    "Browser",
+    "Region",
+    "TrafficType"
+  ],
+  "positive_label": "True (purchase)",
+  "seed": 5643,
+  "models": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  },
+  "best_params": {
+    "Logistic Regression": {
+      "C": "0.01",
+      "class_weight": "balanced"
+    },
+    "Decision Tree": {
+      "class_weight": "balanced",
+      "criterion": "entropy",
+      "max_depth": "6",
+      "min_samples_leaf": "5"
+    },
+    "KNN": {
+      "n_neighbors": "21",
+      "weights": "uniform"
+    },
+    "Naive Bayes": {
+      "var_smoothing": "0.1"
+    },
+    "Support Vector Machine": {
+      "C": "1",
+      "class_weight": "balanced"
+    }
+  },
+  "versions": {
+    "scikit-learn": "1.7.2",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6"
+  }
+}
